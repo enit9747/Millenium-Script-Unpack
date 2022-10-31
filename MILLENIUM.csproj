@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{891C4067-9A38-40B7-8106-53EC44A3D2EA}</ProjectGuid>
+    <ProjectGuid>{6E10360F-CD4C-4697-A48F-B54BA9347423}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MILLENIUMV2.1</RootNamespace>
-    <AssemblyName>MilleniumV2.1_Cracked</AssemblyName>
+    <RootNamespace>MILLENIUMV2._1.Properties</RootNamespace>
+    <AssemblyName>MILLENIUM</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <StartupObject>MILLENIUMV2._1.Program</StartupObject>
+    <StartupObject>Class6</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,51 +42,47 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MILLENIUMV2\_1\Form1.cs">
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MILLENIUMV2\_1\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MILLENIUMV2\_1\login.cs">
+    <Compile Include="GClass0.cs" />
+    <Compile Include="GClass1.cs" />
+    <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MILLENIUMV2\_1\login.Designer.cs">
+    <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MILLENIUMV2\_1\Program.cs" />
-    <Compile Include="MILLENIUMV2\_1\Properties\Resources.cs" />
-    <Compile Include="MILLENIUMV2\_1\Properties\Settings.Designer.cs">
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.settings</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="MILLENIUMV2\_1\Win32.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MILLENIUMV2\_1\Form1.resources" />
-    <EmbeddedResource Include="MILLENIUMV2\_1\Form1.resx">
+    <EmbeddedResource Include="-+.resources" />
+    <EmbeddedResource Include="-,Ra48(-.resources" />
+    <EmbeddedResource Include="-LZ.resources" />
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MILLENIUMV2\_1\login.resources" />
-    <EmbeddedResource Include="MILLENIUMV2\_1\login.resx">
+    <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MILLENIUMV2\_1\Properties\Resources.resources" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />
-    <None Include="MILLENIUMV2\_1\Properties\Settings.settings">
+    <None Include="Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>

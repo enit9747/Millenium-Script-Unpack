@@ -22,7 +22,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -31,11 +30,11 @@
             this.label1.BackColor = System.Drawing.Color.Maroon;
             this.label1.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(45, 98);
+            this.label1.Location = new System.Drawing.Point(42, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(367, 34);
+            this.label1.Size = new System.Drawing.Size(372, 34);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Millenium V2.1 Cracked by enit#0465";
+            this.label1.Text = "Millenium V2.2 Cracked by enit#0465";
             this.label1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button1
@@ -46,10 +45,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(45, 132);
+            this.button1.Location = new System.Drawing.Point(42, 132);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(367, 29);
+            this.button1.Size = new System.Drawing.Size(372, 29);
             this.button1.TabIndex = 1;
             this.button1.Text = "Run";
             this.button1.UseVisualStyleBackColor = true;
@@ -77,16 +76,7 @@
             this.label2.Size = new System.Drawing.Size(94, 274);
             this.label2.TabIndex = 3;
             this.label2.Text = "Millennium is spelled with two N\'s. Not one. Consider fixing your spelling issues" +
-    " before releasing a recoil script that uses more than 30% cpu\r\n";
-            // 
-            // label3
-            // 
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(104, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(249, 14);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "I fixed the 30% cpu usage issue. Stop pasting luna.";
+    " before releasing a recoil script that fucking sucks\r\n";
             // 
             // login
             // 
@@ -96,7 +86,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(457, 457);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -120,6 +109,5 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
     }
 }

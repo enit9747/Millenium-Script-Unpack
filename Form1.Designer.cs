@@ -1,22 +1,9 @@
-﻿namespace MILLENIUMV2._1
+﻿// Token: 0x02000010 RID: 16
+public partial class Form1 : global::System.Windows.Forms.Form
 {
-	// Token: 0x02000003 RID: 3
-	public partial class Form1 : global::System.Windows.Forms.Form
+	// Token: 0x06000076 RID: 118 RVA: 0x00025E00 File Offset: 0x00024000
+	private void InitializeComponent()
 	{
-		// Token: 0x0600002B RID: 43 RVA: 0x0000E180 File Offset: 0x0000E180
-		protected override void Dispose(bool disposing)
-		{
-			bool flag = disposing && this.components != null;
-			if (flag)
-			{
-				this.components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
-
-		// Token: 0x0600002C RID: 44 RVA: 0x0000E1B8 File Offset: 0x0000E1B8
-		private void InitializeComponent()
-		{
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -27,6 +14,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.opoutput = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -54,20 +43,35 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.ValueUpdater = new System.Windows.Forms.Timer(this.components);
-            this.rs6checker = new System.Windows.Forms.Timer(this.components);
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.OPCHECKER = new System.Windows.Forms.Timer(this.components);
+            this.timer_0 = new System.Windows.Forms.Timer(this.components);
+            this.timer_1 = new System.Windows.Forms.Timer(this.components);
+            this.timer_2 = new System.Windows.Forms.Timer(this.components);
+            this.timer_3 = new System.Windows.Forms.Timer(this.components);
+            this.timer_4 = new System.Windows.Forms.Timer(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.trackBar7 = new System.Windows.Forms.TrackBar();
+            this.trackBar6 = new System.Windows.Forms.TrackBar();
+            this.trackBar5 = new System.Windows.Forms.TrackBar();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.timer_5 = new System.Windows.Forms.Timer(this.components);
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.lijn = new System.Windows.Forms.Panel();
+            this.timer_6 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -76,13 +80,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label14);
@@ -95,14 +101,14 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.label2.Font = new System.Drawing.Font("Gadugi", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(40)))));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(6, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(286, 19);
+            this.label2.Size = new System.Drawing.Size(273, 19);
             this.label2.TabIndex = 23;
-            this.label2.Text = "MILLENIUM V2.1 | CRACKED BY enit#0465\r\n";
+            this.label2.Text = "MILLENIUM V2.2 | Cracked by enit#0465";
             // 
             // label13
             // 
@@ -181,12 +187,14 @@
             this.opoutput.Size = new System.Drawing.Size(134, 20);
             this.opoutput.TabIndex = 4;
             this.opoutput.TabStop = false;
-            this.opoutput.Text = "UNKNOWN";
+            this.opoutput.Text = "OPERATOR";
             this.opoutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(30)))));
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.button8);
             this.panel3.Controls.Add(this.button9);
@@ -214,25 +222,47 @@
             this.panel3.TabIndex = 4;
             this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label11.Location = new System.Drawing.Point(6, 120);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(85, 16);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "HORIZONTAL:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label7.Location = new System.Drawing.Point(6, 18);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(63, 16);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "VERTICAL:";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(242, 10);
+            this.label8.Location = new System.Drawing.Point(509, 6);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 22);
+            this.label8.Size = new System.Drawing.Size(101, 25);
             this.label8.TabIndex = 22;
             this.label8.Text = "ENABLED";
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Gadugi", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(461, 92);
+            this.button8.Location = new System.Drawing.Point(462, 92);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(21, 21);
             this.button8.TabIndex = 21;
@@ -243,7 +273,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Gadugi", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -259,7 +289,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Gadugi", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -442,33 +472,33 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Gadugi", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(489, 153);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 29);
             this.button3.TabIndex = 13;
             this.button3.TabStop = false;
-            this.button3.Text = "SAVE AS DEFENDER";
+            this.button3.Text = "SAVE AS (DEFENDER)";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Gadugi", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(489, 119);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(121, 29);
             this.button6.TabIndex = 12;
             this.button6.TabStop = false;
-            this.button6.Text = "SAVE AS ATTACKER";
+            this.button6.Text = "SAVE AS (ATTACKER)";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -479,9 +509,9 @@
             this.label24.ForeColor = System.Drawing.Color.White;
             this.label24.Location = new System.Drawing.Point(390, 94);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(56, 16);
+            this.label24.Size = new System.Drawing.Size(64, 16);
             this.label24.TabIndex = 11;
-            this.label24.Text = "Defender";
+            this.label24.Text = "DEFENDER";
             // 
             // label9
             // 
@@ -490,9 +520,9 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(390, 66);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 16);
+            this.label9.Size = new System.Drawing.Size(66, 16);
             this.label9.TabIndex = 10;
-            this.label9.Text = "Attacker";
+            this.label9.Text = "ATTACKER";
             // 
             // label10
             // 
@@ -582,10 +612,10 @@
             // 
             // trackBar2
             // 
-            this.trackBar2.Location = new System.Drawing.Point(3, 88);
+            this.trackBar2.Location = new System.Drawing.Point(6, 88);
             this.trackBar2.Maximum = 20;
             this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(253, 45);
+            this.trackBar2.Size = new System.Drawing.Size(250, 45);
             this.trackBar2.TabIndex = 1;
             this.trackBar2.TickFrequency = 5;
             this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
@@ -599,15 +629,16 @@
             this.trackBar1.TabIndex = 0;
             this.trackBar1.TickFrequency = 5;
             this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
+            this.trackBar1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.trackBar1_KeyPress);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(498, 228);
+            this.button4.Location = new System.Drawing.Point(496, 228);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(121, 29);
             this.button4.TabIndex = 18;
@@ -618,12 +649,12 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(0)))), ((int)(((byte)(204)))));
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(498, 193);
+            this.button7.Location = new System.Drawing.Point(496, 197);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(121, 29);
             this.button7.TabIndex = 17;
@@ -642,7 +673,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(634, 65);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(129, 226);
+            this.groupBox1.Size = new System.Drawing.Size(129, 267);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Misc";
@@ -682,12 +713,23 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(787, 129);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(101, 20);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Menu Overlay";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(538, 150);
+            this.label17.Location = new System.Drawing.Point(421, 222);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 16);
             this.label17.TabIndex = 12;
@@ -699,7 +741,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(538, 134);
+            this.label20.Location = new System.Drawing.Point(421, 206);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(21, 16);
             this.label20.TabIndex = 11;
@@ -711,7 +753,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(538, 166);
+            this.label19.Location = new System.Drawing.Point(421, 238);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(47, 16);
             this.label19.TabIndex = 10;
@@ -721,10 +763,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(30)))));
-            this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Font = new System.Drawing.Font("Gadugi", 8.25F);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(634, 293);
+            this.groupBox2.Location = new System.Drawing.Point(845, 366);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(129, 39);
             this.groupBox2.TabIndex = 9;
@@ -734,33 +775,36 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Gadugi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(12, 15);
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label21.Location = new System.Drawing.Point(694, 424);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(105, 16);
             this.label21.TabIndex = 9;
-            this.label21.Text = "MILLENIUM V2.1";
+            this.label21.Text = "MILLENIUM V2.2";
             // 
-            // timer1
+            // timer_0
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer_0.Tick += new System.EventHandler(this.timer_0_Tick);
             // 
-            // ValueUpdater
+            // timer_1
             // 
-            this.ValueUpdater.Interval = 1;
-            this.ValueUpdater.Tick += new System.EventHandler(this.ValueUpdater_Tick);
+            this.timer_1.Interval = 1;
+            this.timer_1.Tick += new System.EventHandler(this.timer_1_Tick);
             // 
-            // rs6checker
+            // timer_2
             // 
-            this.rs6checker.Tick += new System.EventHandler(this.rs6checker_Tick);
+            this.timer_2.Tick += new System.EventHandler(this.timer_2_Tick);
             // 
-            // OPCHECKER
+            // timer_4
             // 
-            this.OPCHECKER.Interval = 500;
+            this.timer_4.Interval = 500;
+            this.timer_4.Tick += new System.EventHandler(this.timer_4_Tick);
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(30)))));
+            this.panel4.Controls.Add(this.linkLabel4);
+            this.panel4.Controls.Add(this.linkLabel3);
             this.panel4.Controls.Add(this.linkLabel2);
             this.panel4.Controls.Add(this.linkLabel1);
             this.panel4.Controls.Add(this.label17);
@@ -775,6 +819,30 @@
             this.panel4.TabIndex = 10;
             this.panel4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel4_MouseDown);
             // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(492, 157);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(92, 19);
+            this.linkLabel4.TabIndex = 23;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "Reset HWID";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(492, 175);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(118, 19);
+            this.linkLabel3.TabIndex = 22;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Reset password";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
@@ -786,30 +854,161 @@
             // 
             // linkLabel1
             // 
-            this.linkLabel1.Location = new System.Drawing.Point(0, 0);
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(492, 139);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(100, 23);
-            this.linkLabel1.TabIndex = 22;
+            this.linkLabel1.Size = new System.Drawing.Size(62, 19);
+            this.linkLabel1.TabIndex = 20;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Discord";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(281, 82);
+            this.label1.Location = new System.Drawing.Point(492, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 57);
+            this.label1.Size = new System.Drawing.Size(127, 76);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Shitty && Pasted Script\r\nCracked by enit#0465\r\nthis gui is ugly asf lolol\r\n";
+            this.label1.Text = "Millenium is pasted\r\nYour protection sucks\r\nsmd fag\r\n\r\n";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(784, 290);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(13, 16);
+            this.label22.TabIndex = 31;
+            this.label22.Text = "*";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(784, 247);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(13, 16);
+            this.label18.TabIndex = 30;
+            this.label18.Text = "*";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(784, 172);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(13, 16);
+            this.label16.TabIndex = 29;
+            this.label16.Text = "*";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // trackBar7
+            // 
+            this.trackBar7.Location = new System.Drawing.Point(787, 287);
+            this.trackBar7.Maximum = 50;
+            this.trackBar7.Name = "trackBar7";
+            this.trackBar7.Size = new System.Drawing.Size(250, 45);
+            this.trackBar7.TabIndex = 28;
+            this.trackBar7.TickFrequency = 5;
+            this.trackBar7.ValueChanged += new System.EventHandler(this.trackBar7_ValueChanged);
+            // 
+            // trackBar6
+            // 
+            this.trackBar6.Location = new System.Drawing.Point(787, 244);
+            this.trackBar6.Maximum = 50;
+            this.trackBar6.Name = "trackBar6";
+            this.trackBar6.Size = new System.Drawing.Size(250, 45);
+            this.trackBar6.TabIndex = 27;
+            this.trackBar6.TickFrequency = 5;
+            this.trackBar6.ValueChanged += new System.EventHandler(this.trackBar6_ValueChanged);
+            // 
+            // trackBar5
+            // 
+            this.trackBar5.Location = new System.Drawing.Point(787, 168);
+            this.trackBar5.Maximum = 50;
+            this.trackBar5.Name = "trackBar5";
+            this.trackBar5.Size = new System.Drawing.Size(250, 45);
+            this.trackBar5.TabIndex = 26;
+            this.trackBar5.TickFrequency = 5;
+            this.trackBar5.ValueChanged += new System.EventHandler(this.trackBar5_ValueChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label15.Location = new System.Drawing.Point(784, 222);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(108, 16);
+            this.label15.TabIndex = 25;
+            this.label15.Text = "RECOIL CONTROL:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.label12.Location = new System.Drawing.Point(784, 149);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(107, 16);
+            this.label12.TabIndex = 24;
+            this.label12.Text = "SHOOTING SPEED:";
+            // 
+            // timer_5
+            // 
+            this.timer_5.Interval = 7000;
+            this.timer_5.Tick += new System.EventHandler(this.timer_5_Tick);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(30)))));
+            this.panel5.Location = new System.Drawing.Point(6, 338);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(622, 267);
+            this.panel5.TabIndex = 11;
+            // 
+            // lijn
+            // 
+            this.lijn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(30)))));
+            this.lijn.Location = new System.Drawing.Point(-15, 21);
+            this.lijn.Name = "lijn";
+            this.lijn.Size = new System.Drawing.Size(2000, 3);
+            this.lijn.TabIndex = 21;
+            // 
+            // timer_6
+            // 
+            this.timer_6.Interval = 1;
+            this.timer_6.Tick += new System.EventHandler(this.timer_6_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(771, 338);
+            this.ClientSize = new System.Drawing.Size(768, 336);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.lijn);
+            this.Controls.Add(this.trackBar7);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.trackBar6);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.trackBar5);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -818,7 +1017,7 @@
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "MilleniumV2.1 Cracked by enit#0465";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.panel1.ResumeLayout(false);
@@ -833,165 +1032,218 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
-		}
-
-		// Token: 0x04000013 RID: 19
-		private global::System.ComponentModel.IContainer components = null;
-
-		// Token: 0x04000014 RID: 20
-		private global::System.Windows.Forms.Panel panel1;
-
-		// Token: 0x04000015 RID: 21
-		private global::System.Windows.Forms.Button button1;
-
-		// Token: 0x04000016 RID: 22
-		private global::System.Windows.Forms.Button button2;
-
-		// Token: 0x04000017 RID: 23
-		private global::System.Windows.Forms.Panel panel2;
-
-		// Token: 0x04000018 RID: 24
-		private global::System.Windows.Forms.TextBox opoutput;
-
-		// Token: 0x04000019 RID: 25
-		private global::System.Windows.Forms.Panel panel3;
-
-		// Token: 0x0400001A RID: 26
-		private global::System.Windows.Forms.ComboBox comboBox3;
-
-		// Token: 0x0400001B RID: 27
-		private global::System.Windows.Forms.ComboBox comboBox2;
-
-		// Token: 0x0400001C RID: 28
-		private global::System.Windows.Forms.ComboBox comboBox1;
-
-		// Token: 0x0400001D RID: 29
-		private global::System.Windows.Forms.Button button3;
-
-		// Token: 0x0400001E RID: 30
-		private global::System.Windows.Forms.Button button6;
-
-		// Token: 0x0400001F RID: 31
-		private global::System.Windows.Forms.Label label24;
-
-		// Token: 0x04000020 RID: 32
-		private global::System.Windows.Forms.Label label9;
-
-		// Token: 0x04000021 RID: 33
-		private global::System.Windows.Forms.Label label10;
-
-		// Token: 0x04000022 RID: 34
-		private global::System.Windows.Forms.Label Valuesetter;
-
-		// Token: 0x04000023 RID: 35
-		private global::System.Windows.Forms.Label label6;
-
-		// Token: 0x04000024 RID: 36
-		private global::System.Windows.Forms.Label label5;
-
-		// Token: 0x04000025 RID: 37
-		private global::System.Windows.Forms.Label label4;
-
-		// Token: 0x04000026 RID: 38
-		private global::System.Windows.Forms.Label label3;
-
-		// Token: 0x04000027 RID: 39
-		private global::System.Windows.Forms.TrackBar trackBar4;
-
-		// Token: 0x04000028 RID: 40
-		private global::System.Windows.Forms.TrackBar trackBar3;
-
-		// Token: 0x04000029 RID: 41
-		private global::System.Windows.Forms.TrackBar trackBar2;
-
-		// Token: 0x0400002A RID: 42
-		private global::System.Windows.Forms.TrackBar trackBar1;
-
-		// Token: 0x0400002B RID: 43
-		private global::System.Windows.Forms.GroupBox groupBox1;
-
-		// Token: 0x0400002C RID: 44
-		private global::System.Windows.Forms.CheckBox checkBox3;
-
-		// Token: 0x0400002D RID: 45
-		private global::System.Windows.Forms.CheckBox checkBox2;
-
-		// Token: 0x0400002E RID: 46
-		private global::System.Windows.Forms.CheckBox checkBox1;
-
-		// Token: 0x0400002F RID: 47
-		private global::System.Windows.Forms.GroupBox groupBox2;
-
-		// Token: 0x04000030 RID: 48
-		private global::System.Windows.Forms.Label label21;
-
-		// Token: 0x04000031 RID: 49
-		private global::System.Windows.Forms.Label label13;
-
-		// Token: 0x04000032 RID: 50
-		private global::System.Windows.Forms.Label label14;
-
-		// Token: 0x04000033 RID: 51
-		private global::System.Windows.Forms.Button button8;
-
-		// Token: 0x04000034 RID: 52
-		private global::System.Windows.Forms.Button button9;
-
-		// Token: 0x04000035 RID: 53
-		private global::System.Windows.Forms.Button button5;
-
-		// Token: 0x04000036 RID: 54
-		private global::System.Windows.Forms.Button button4;
-
-		// Token: 0x04000037 RID: 55
-		private global::System.Windows.Forms.Button button7;
-
-		// Token: 0x04000038 RID: 56
-		private global::System.Windows.Forms.Label label17;
-
-		// Token: 0x04000039 RID: 57
-		private global::System.Windows.Forms.Label label20;
-
-		// Token: 0x0400003A RID: 58
-		private global::System.Windows.Forms.Label label19;
-
-		// Token: 0x0400003B RID: 59
-		private global::System.Windows.Forms.Label label8;
-
-		// Token: 0x0400003C RID: 60
-		private global::System.Windows.Forms.Timer timer1;
-
-		// Token: 0x0400003D RID: 61
-		private global::System.Windows.Forms.Timer ValueUpdater;
-
-		// Token: 0x0400003E RID: 62
-		private global::System.Windows.Forms.Timer rs6checker;
-
-		// Token: 0x0400003F RID: 63
-		private global::System.Windows.Forms.Timer timer2;
-
-		// Token: 0x04000040 RID: 64
-		private global::System.Windows.Forms.Timer OPCHECKER;
-
-		// Token: 0x04000041 RID: 65
-		private global::System.Windows.Forms.Panel panel4;
-
-		// Token: 0x04000042 RID: 66
-		private global::System.Windows.Forms.LinkLabel linkLabel1;
-
-		// Token: 0x04000043 RID: 67
-		private global::System.Windows.Forms.Label label1;
-
-		// Token: 0x04000044 RID: 68
-		private global::System.Windows.Forms.Label label2;
-
-		// Token: 0x04000045 RID: 69
-		private global::System.Windows.Forms.LinkLabel linkLabel2;
 	}
+
+	// Token: 0x04000053 RID: 83
+	private global::System.ComponentModel.IContainer icontainer_0 = null;
+
+	// Token: 0x04000054 RID: 84
+	private global::System.Windows.Forms.Panel panel1;
+
+	// Token: 0x04000055 RID: 85
+	private global::System.Windows.Forms.Button button1;
+
+	// Token: 0x04000056 RID: 86
+	private global::System.Windows.Forms.Button button2;
+
+	// Token: 0x04000057 RID: 87
+	private global::System.Windows.Forms.Panel panel2;
+
+	// Token: 0x04000058 RID: 88
+	private global::System.Windows.Forms.TextBox opoutput;
+
+	// Token: 0x04000059 RID: 89
+	private global::System.Windows.Forms.Panel panel3;
+
+	// Token: 0x0400005A RID: 90
+	private global::System.Windows.Forms.ComboBox comboBox3;
+
+	// Token: 0x0400005B RID: 91
+	private global::System.Windows.Forms.ComboBox comboBox2;
+
+	// Token: 0x0400005C RID: 92
+	private global::System.Windows.Forms.ComboBox comboBox1;
+
+	// Token: 0x0400005D RID: 93
+	private global::System.Windows.Forms.Button button3;
+
+	// Token: 0x0400005E RID: 94
+	private global::System.Windows.Forms.Button button6;
+
+	// Token: 0x0400005F RID: 95
+	private global::System.Windows.Forms.Label label24;
+
+	// Token: 0x04000060 RID: 96
+	private global::System.Windows.Forms.Label label9;
+
+	// Token: 0x04000061 RID: 97
+	private global::System.Windows.Forms.Label label10;
+
+	// Token: 0x04000062 RID: 98
+	private global::System.Windows.Forms.Label Valuesetter;
+
+	// Token: 0x04000063 RID: 99
+	private global::System.Windows.Forms.Label label6;
+
+	// Token: 0x04000064 RID: 100
+	private global::System.Windows.Forms.Label label5;
+
+	// Token: 0x04000065 RID: 101
+	private global::System.Windows.Forms.Label label4;
+
+	// Token: 0x04000066 RID: 102
+	private global::System.Windows.Forms.Label label3;
+
+	// Token: 0x04000067 RID: 103
+	private global::System.Windows.Forms.TrackBar trackBar4;
+
+	// Token: 0x04000068 RID: 104
+	private global::System.Windows.Forms.TrackBar trackBar3;
+
+	// Token: 0x04000069 RID: 105
+	private global::System.Windows.Forms.TrackBar trackBar2;
+
+	// Token: 0x0400006A RID: 106
+	private global::System.Windows.Forms.TrackBar trackBar1;
+
+	// Token: 0x0400006B RID: 107
+	private global::System.Windows.Forms.GroupBox groupBox1;
+
+	// Token: 0x0400006C RID: 108
+	private global::System.Windows.Forms.CheckBox checkBox3;
+
+	// Token: 0x0400006D RID: 109
+	private global::System.Windows.Forms.CheckBox checkBox2;
+
+	// Token: 0x0400006E RID: 110
+	private global::System.Windows.Forms.CheckBox checkBox1;
+
+	// Token: 0x0400006F RID: 111
+	private global::System.Windows.Forms.GroupBox groupBox2;
+
+	// Token: 0x04000070 RID: 112
+	private global::System.Windows.Forms.Label label21;
+
+	// Token: 0x04000071 RID: 113
+	private global::System.Windows.Forms.Label label13;
+
+	// Token: 0x04000072 RID: 114
+	private global::System.Windows.Forms.Label label14;
+
+	// Token: 0x04000073 RID: 115
+	private global::System.Windows.Forms.Button button8;
+
+	// Token: 0x04000074 RID: 116
+	private global::System.Windows.Forms.Button button9;
+
+	// Token: 0x04000075 RID: 117
+	private global::System.Windows.Forms.Button button5;
+
+	// Token: 0x04000076 RID: 118
+	private global::System.Windows.Forms.Button button4;
+
+	// Token: 0x04000077 RID: 119
+	private global::System.Windows.Forms.Button button7;
+
+	// Token: 0x04000078 RID: 120
+	private global::System.Windows.Forms.Label label17;
+
+	// Token: 0x04000079 RID: 121
+	private global::System.Windows.Forms.Label label20;
+
+	// Token: 0x0400007A RID: 122
+	private global::System.Windows.Forms.Label label19;
+
+	// Token: 0x0400007B RID: 123
+	private global::System.Windows.Forms.Label label8;
+
+	// Token: 0x0400007C RID: 124
+	private global::System.Windows.Forms.Timer timer_0;
+
+	// Token: 0x0400007D RID: 125
+	private global::System.Windows.Forms.Timer timer_1;
+
+	// Token: 0x0400007E RID: 126
+	private global::System.Windows.Forms.Timer timer_2;
+
+	// Token: 0x0400007F RID: 127
+	private global::System.Windows.Forms.Timer timer_3;
+
+	// Token: 0x04000080 RID: 128
+	private global::System.Windows.Forms.Timer timer_4;
+
+	// Token: 0x04000081 RID: 129
+	private global::System.Windows.Forms.Panel panel4;
+
+	// Token: 0x04000082 RID: 130
+	private global::System.Windows.Forms.LinkLabel linkLabel1;
+
+	// Token: 0x04000083 RID: 131
+	private global::System.Windows.Forms.Label label1;
+
+	// Token: 0x04000084 RID: 132
+	private global::System.Windows.Forms.Label label2;
+
+	// Token: 0x04000085 RID: 133
+	private global::System.Windows.Forms.LinkLabel linkLabel2;
+
+	// Token: 0x04000086 RID: 134
+	private global::System.Windows.Forms.Timer timer_5;
+
+	// Token: 0x04000087 RID: 135
+	private global::System.Windows.Forms.Label label11;
+
+	// Token: 0x04000088 RID: 136
+	private global::System.Windows.Forms.Label label7;
+
+	// Token: 0x04000089 RID: 137
+	private global::System.Windows.Forms.Label label15;
+
+	// Token: 0x0400008A RID: 138
+	private global::System.Windows.Forms.Label label12;
+
+	// Token: 0x0400008B RID: 139
+	private global::System.Windows.Forms.TrackBar trackBar7;
+
+	// Token: 0x0400008C RID: 140
+	private global::System.Windows.Forms.TrackBar trackBar6;
+
+	// Token: 0x0400008D RID: 141
+	private global::System.Windows.Forms.TrackBar trackBar5;
+
+	// Token: 0x0400008E RID: 142
+	private global::System.Windows.Forms.Label label22;
+
+	// Token: 0x0400008F RID: 143
+	private global::System.Windows.Forms.Label label18;
+
+	// Token: 0x04000090 RID: 144
+	private global::System.Windows.Forms.Label label16;
+
+	// Token: 0x04000091 RID: 145
+	private global::System.Windows.Forms.Panel panel5;
+
+	// Token: 0x04000092 RID: 146
+	private global::System.Windows.Forms.Panel lijn;
+
+	// Token: 0x04000093 RID: 147
+	private global::System.Windows.Forms.CheckBox checkBox4;
+
+	// Token: 0x04000094 RID: 148
+	private global::System.Windows.Forms.Timer timer_6;
+
+	// Token: 0x04000095 RID: 149
+	private global::System.Windows.Forms.LinkLabel linkLabel4;
+
+	// Token: 0x04000096 RID: 150
+	private global::System.Windows.Forms.LinkLabel linkLabel3;
+    private System.ComponentModel.IContainer components;
 }
